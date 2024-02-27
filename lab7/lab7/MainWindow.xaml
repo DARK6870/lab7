@@ -1,0 +1,47 @@
+﻿<Window x:Class="lab7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab7"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+     TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+     TextElement.FontWeight="Regular"
+     TextElement.FontSize="13"
+     TextOptions.TextFormattingMode="Ideal"
+     TextOptions.TextRenderingMode="Auto"
+     Background="{DynamicResource MaterialDesignPaper}"
+     FontFamily="{DynamicResource MaterialDesignFont}"
+        Title="MainWindow" Height="450" Width="800" ResizeMode="CanMinimize">
+    <Grid>
+        <DataGrid  AlternatingRowBackground="LightGray"  AutoGenerateColumns="True" x:Name="datagrid" Margin="10,10,652,10">
+        </DataGrid>
+        <TabControl TabStripPlacement="Right" Margin="250,0,0,0">
+            <TabItem Header="Произведение">
+                <Grid>
+                    <Button x:Name="Pr" Click="Pr_Click" Content="Вычислить произведение" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center"/>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Максимальный">
+                <Grid>
+                    <Button x:Name="max_btn" Click="max_btn_Click" Content="Найти максимальный элемент" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Чёт/Нечёт">
+                <Grid>
+                    <Button x:Name="odd_btn" Click="odd_btn_Click" Content="Найти чётные и нечётные элементы" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Удалить">
+                <Grid>
+                    <TextBox x:Name="numb_tb" Margin="0,145,0,0" materialDesign:HintAssist.IsFloating="True" materialDesign:HintAssist.Hint="Enter number" HorizontalAlignment="Center" VerticalAlignment="Top" Width="179" FontSize="14"/>
+                    <Button x:Name="delete_btn" Click="delete_btn_Click" Content="Найти чётные и нечётные элементы" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Label Content="" Width="450" Height="100" x:Name="result_label" Margin="0, 20, 0, 0" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="16" HorizontalContentAlignment="Center"/>
+
+    </Grid>
+</Window>
