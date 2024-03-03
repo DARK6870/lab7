@@ -121,5 +121,12 @@ namespace lab7
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void martrix_btn_Click(object sender, RoutedEventArgs e)
+        {
+            MatrixWindow f = new MatrixWindow();
+            f.Show();
+            this.Close();
+        }
     }
 }

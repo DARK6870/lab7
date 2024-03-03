@@ -13,7 +13,7 @@
      TextOptions.TextRenderingMode="Auto"
      Background="{DynamicResource MaterialDesignPaper}"
      FontFamily="{DynamicResource MaterialDesignFont}"
-        Title="MainWindow" Height="450" Width="800" ResizeMode="CanMinimize">
+        Title="MainWindow" Height="450" Width="800" ResizeMode="CanMinimize" Icon="/ghost_4109.png">
     <Grid>
         <DataGrid  AlternatingRowBackground="LightGray"  AutoGenerateColumns="True" x:Name="datagrid" Margin="10,10,652,10">
         </DataGrid>
@@ -42,6 +42,7 @@
             </TabItem>
         </TabControl>
         <Label Content="" Width="450" Height="100" x:Name="result_label" Margin="0, 20, 0, 0" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="16" HorizontalContentAlignment="Center"/>
+        <Button x:Name="martrix_btn" Click="martrix_btn_Click" Content="Матрица" HorizontalAlignment="Left" Margin="680,370,0,0" VerticalAlignment="Top" Background="#FFC56060" BorderBrush="#FFE28C8C"/>
 
     </Grid>
 </Window>

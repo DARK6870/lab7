@@ -50,3 +50,6 @@ C:\Users\tsymb\Downloads\lab7\lab7\obj\Debug\net7.0-windows\refint\lab7.dll
 C:\Users\tsymb\Downloads\lab7\lab7\obj\Debug\net7.0-windows\lab7.pdb
 C:\Users\tsymb\Downloads\lab7\lab7\obj\Debug\net7.0-windows\lab7.genruntimeconfig.cache
 C:\Users\tsymb\Downloads\lab7\lab7\obj\Debug\net7.0-windows\ref\lab7.dll
+C:\Users\tsymb\Downloads\lab7\lab7\obj\Debug\net7.0-windows\lab7_Content.g.cs
+C:\Users\tsymb\Downloads\lab7\lab7\obj\Debug\net7.0-windows\MatrixWindow.g.cs
+C:\Users\tsymb\Downloads\lab7\lab7\obj\Debug\net7.0-windows\MatrixWindow.baml

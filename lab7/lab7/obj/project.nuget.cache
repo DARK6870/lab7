@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sI6qwu85+et081MOKwzWnxDKtoT+48wmaY7KVMiUeh81f4vAav5h/ZAmE++IGADovOVXto6M2jpO/bxzdKEmgg==",
+  "dgSpecHash": "cUDKk65l0o4zOO1nrTsYZXsW+IKMj6uKElxOfHoALqIeH/TzMwGrNf3d22x54F3iJ2MuTS6vJBQjkMEaZ4mRvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tsymb\\Downloads\\lab7\\lab7\\lab7.csproj",
+  "projectFilePath": "D:\\GIT\\lab7\\lab7\\lab7\\lab7.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tsymb\\.nuget\\packages\\materialdesigncolors\\2.1.4\\materialdesigncolors.2.1.4.nupkg.sha512",
     "C:\\Users\\tsymb\\.nuget\\packages\\materialdesignthemes\\4.9.0\\materialdesignthemes.4.9.0.nupkg.sha512",
