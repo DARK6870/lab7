@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\GIT\lab7\lab7\lab7\obj\Debug\net7.0-windows\
+C:\Users\Lab106(35)\Desktop\lab7-main\lab7\lab7\obj\Debug\net7.0-windows\
 lab7
 none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
-D:\GIT\lab7\lab7\lab7\App.xaml
+C:\Users\Lab106(35)\Desktop\lab7-main\lab7\lab7\App.xaml
 2145048230
 1-906273091
-8-1045084848
-201-607589353
+7-546713559
+201-1392773989
 MainWindow.xaml;MatrixWindow.xaml;
 
 True

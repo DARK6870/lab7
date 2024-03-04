@@ -124,7 +124,7 @@ namespace lab7
 
         private void martrix_btn_Click(object sender, RoutedEventArgs e)
         {
-            MatrixWindow f = new MatrixWindow();
+                MatrixWindow f = new MatrixWindow();
             f.Show();
             this.Close();
         }

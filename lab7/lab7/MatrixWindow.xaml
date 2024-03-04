@@ -14,7 +14,7 @@
      FontFamily="{DynamicResource MaterialDesignFont}"
         Title="Matrix" Height="450" Width="800" ResizeMode="CanMinimize" Icon="/ghost_4109.png">
     <Grid>
-        <DataGrid  AlternatingRowBackground="LightGray"  AutoGenerateColumns="True" x:Name="datagrid" Margin="10,10,533,10">
+        <DataGrid  AlternatingRowBackground="LightGray"  AutoGenerateColumns="True" x:Name="datagrid" Margin="10,10,490,10">
         </DataGrid>
         <TabControl TabStripPlacement="Right" Margin="250,0,0,0">
             <TabItem Header="Сумма">
@@ -22,9 +22,19 @@
                     <Button x:Name="Sum" Click="Sum_Click" Content="Вычислить сумму" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center"/>
                 </Grid>
             </TabItem>
-            <Label Content="" Width="450" Height="100" x:Name="result_label" Margin="0, 20, 0, 0" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="16" HorizontalContentAlignment="Center"/>
+            <TabItem Header="Минимальный">
+                <Grid>
+                    <Button x:Name="min" Click="min_Click" Content="Минимальный элемент строки" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Подсчитать">
+                <Grid>
+                    <Button x:Name="count" Click="count_Click" Content="Количество 0, отриц, полож" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center"/>
+                </Grid>
+            </TabItem>
             <Button x:Name="massiv_btn" Click="massiv_btn_Click" Content="Массив" HorizontalAlignment="Left" Margin="680,370,0,0" VerticalAlignment="Top" Background="#FFC56060" BorderBrush="#FFE28C8C"/>
         </TabControl>
+        <Label Content="" Width="450" Height="100" x:Name="result_label" Margin="0, 20, 0, 0" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="16" HorizontalContentAlignment="Center"/>
     </Grid>
 </Window>
 
