@@ -32,6 +32,12 @@
                     <Button x:Name="count" Click="count_Click" Content="Количество 0, отриц, полож" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center"/>
                 </Grid>
             </TabItem>
+            <TabItem Header="Удалить столбец">
+                <Grid>
+                    <Button x:Name="deleteColumn" Click="deleteColumn_Click" Content="Удалить столбец" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center"/>
+                    <TextBox HorizontalAlignment="Center" Margin="0,159,0,0" TextWrapping="Wrap" Text="" materialDesign:HintAssist.Hint="column" x:Name="col" VerticalAlignment="Top" Width="120"/>
+                </Grid>
+            </TabItem>
             <Button x:Name="massiv_btn" Click="massiv_btn_Click" Content="Массив" HorizontalAlignment="Left" Margin="680,370,0,0" VerticalAlignment="Top" Background="#FFC56060" BorderBrush="#FFE28C8C"/>
         </TabControl>
         <Label Content="" Width="450" Height="100" x:Name="result_label" Margin="0, 20, 0, 0" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="16" HorizontalContentAlignment="Center"/>

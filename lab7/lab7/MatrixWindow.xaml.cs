@@ -136,5 +136,37 @@ namespace lab7
             ShowMsg(res.ToString());
         }
 
+        private void deleteColumn_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                int colNum = Convert.ToInt32(col.Text);
+
+                if (colNum >= 0 && colNum < table.Columns.Count)
+                {
+                    table.Columns.RemoveAt(colNum);
+
+                    if (colNum < datagrid.Columns.Count)
+                    {
+                        datagrid.Columns.RemoveAt(colNum);
+                    }
+
+                    datagrid.ItemsSource = table.DefaultView;
+                }
+                else
+                {
+                    ShowMsg("Invalid column number. Please enter a valid column number to delete.");
+                }
+            }
+            catch (FormatException)
+            {
+                ShowMsg("Please enter a valid number for the column.");
+            }
+            catch (Exception ex)
+            {
+                ShowMsg($"An error occurred: {ex.Message}");
+            }
+        }
+
     }
 }
